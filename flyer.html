@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Restaurant</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;500&display=swap');
+</style>
+<style>
+	* {
+		font-family: 'Mukta', sans-serif;
+		font-weight: bold;
+	}
+	body {
+		background: -webkit-linear-gradient(315deg, hsla(333, 100%, 53%, 1) 0%, hsla(310, 54%, 63%, 1) 49%, hsla(294, 100%, 55%, 1) 100%);
+		overflow-x: hidden;		
+	}
+	section {
+		margin: 20px 0;
+	}
+	.first {
+		display: flex;
+		width: 100%;
+		margin: 0 20px;
+		margin-top: 70px;
+		justify-content: space-around;
+		flex-wrap: wrap-reverse;
+	}
+	.first div{
+		background-color: yellow;
+		padding: 15px 80px;
+	}
+	.first div:hover {
+		opacity: 70%;
+	}
+	.second {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 20px 40px;
+	}
+	.second img{
+		width: 700px;
+	}
+	.second .sec-1 {
+		flex: 0.7;
+	}
+	.second .sec-2 {
+		flex: 0.3;
+	}
+	.second .sec-2 {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 80px;
+	}
+	.second .sec-2 div{
+		background-color: yellow;
+		margin: 10px 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+	.second .sec-1 img {
+		width: 100%
+		max-width: 900px;
+		height: auto;
+	}
+	#a{
+		flex: 1;
+	}
+	#b {
+		flex: 1;
+	}
+	section.third {
+		display: flex;
+	}
+	.third div{
+		background-color: white;
+		margin: 0px 30px;
+	}
+	.third div {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap-reverse;
+	}
+	.third div p{
+		font-size: 15px;
+		justify-content: center;
+		align-items: justify;
+		font-weight: normal;
+	}
+	.fourth {
+		display: flex;
+		flex-direction: row;
+		background-color: white;
+		margin: 0px 30px;
+		flex-wrap: wrap;
+	}
+	.fourth img {
+		padding: 30px;
+	}
+	.fourth #o {
+		display: flex;
+		flex-direction: column;
+		margin-top: 80px;
+	}
+	.fourth #o a{
+		background-color: yellow;
+		text-align: center;
+		color: #000;
+		text-decoration: none;
+	}
+	.fivth {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.sixth {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap-reverse;
+	}
+	.sixth img {
+		margin: 10px 10px;
+	}
+</style>
+<body>
+	<section class="first">
+		<div>TACOS</div>	
+		<div>BEERS</div>
+		<div>WINES</div>
+		<div>DESSERTS</div>
+		<div>RESERVATIONS</div>
+	</section>
+	<!-- end of first Section -->
+
+	<section class="second">
+		
+		<div class="sec-1"><img src="wallpaper.jpg" ></div>
+		
+		<div class="sec-2">
+			<div id="a"><h1>₹200</h1></div>
+			<div id="b"><h1>₹300</h1></div>
+		</div>
+
+	</section>
+	<!-- end of second section -->
+	<section class="third">
+		<div>
+			<!-- <img src=""> -->
+			<h4>Tacos</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+		</div>
+		<div>
+			<!-- <img src=""> -->
+			<h4> Beer</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+		</div>
+		<div>
+			<!-- <img src=""> -->
+			<h4> Wine</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+		</div>
+		<div>
+			<!-- <img src=""> -->
+			<h4>Music </h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+		</div>
+	</section>	
+	<!-- emd of third section -->
+	<section class="fourth">
+		<div id="p">
+			<img src="taco.png">
+		</div>
+		<div id="o">
+			<h4>Featured Taco</h4>
+			<p>Slim Profile, easy to hold and loaded with cheese.<br>
+
+This is the one you have been waiting for</p>
+			<a href="">Learn more -></a>
+		</div>
+	</section>
+	<!-- end of fourth section -->
+	<section class="fivth"> 
+		<img src="">
+		<h4>instagram</h4>
+		<img src="">
+	</section>
+	<!-- end of ficth section -->
+	<section class="sixth">
+		<img src="1.jpeg">
+		<img src="2.jpeg">
+		<img src="3.jpeg">
+		<img src="4.jpeg">
+		<img src="5.jpeg">
+		<img src="6.jpeg">
+		<img src="7.jpeg">
+		<img src="8.jpeg">
+		<img src="9.jpeg">
+		<img src="10.jpeg">
+	</section>
+</body>
+</html>
